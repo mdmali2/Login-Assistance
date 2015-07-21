@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {color:blue; 
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:large;
+}
+h2 {color:#09F;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:medium;
+	padding-bottom:0;
+}
+button{background-color:#09F;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-weight:bold;
+		color:white;
+		
+}
+p	{color:#000;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	
+}
+embed
+{
+	padding-left: 225pt
+}
+

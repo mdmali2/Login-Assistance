@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="LoginAssistScript.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="Styles.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Login Assistance Password</title>
+</head>
+<body>
+<h1>Login Assistance</h1>
+<h2>Please read below:</h2>
+<p>
+If you forgot your login credentials, you can have them reset.  Enter the information below to be presented with your security questions.  After you successfully answer the security questions, an email will be sent to the address we have on file to allow you to change your credentials.
+</p>
+<table border="1" cellpadding="5" cellspacing="5">
+<tr>
+<th>Administrators</th>
+<th>Participants</th>
+</tr>
+<tr>
+<td>
+	<form>
+    Username:
+    <input type="text" id="AUsername">
+    </form>
+    <form>
+    Email:
+    <input type="text" id="AEmail" hspace="26.25">
+    </form>
+</td>
+<td>
+	<form>
+    Username:
+    <input type="text" id="PUsername">
+    </form>
+    <form>
+    Email:
+    <input type="text" id="PEmail" hspace="26.25">
+    </form>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+Or
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+	<form>
+    UID:
+    <input type="text" id="UID" hspace="35">
+    </form>
+    <form>
+    DOB:
+    <input type="text" id="DOB" hspace="30">
+    </form>
+</td>
+</tr>
+<tr>
+<td>
+<button type="button" name="ASubmit" onclick="aFunction()">
+Admin Submit
+</button>
+</td>
+<td>
+<button type="button" name="PSubmit" onclick="pFunction()">
+Participant Submit
+</button>
+</td>
+</tr>
+</table>
+</body>
+</html>
